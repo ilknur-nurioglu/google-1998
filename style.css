@@ -34,6 +34,12 @@
 
 }
 
+.s1 {
+    width: 500px;
+    height: 40px;
+    margin: 10px auto 10px;
+}
+
 .search-box{
     width: 500px;
     height: 30px;
@@ -44,24 +50,23 @@
 }
 
 .buttons{
-    background-color: black;
     width: 300px;
     margin: auto;
 }
 
 .btn {
-    width: 125px;
-    height: 17px;
-    background-color: rgb(223, 221, 221);
-    border-style: solid;
-    border-width: thin;
-    border-radius: 3px ;
-    border-color: gray;
+   
     float:left;
     padding: 5px;
-    margin: -9px 3px;
+    margin: -10px auto 10px;
+
+}
+
+.button-style {
+    font-size: 15px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 16px;
+    
 }
 
 
@@ -74,7 +79,6 @@
     margin-bottom: 10px;
     float: left;
     text-align: center;
-    
     padding: auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -98,26 +102,24 @@
 }
 
 .card-search-box{
-    background-color: antiquewhite;
     width: 250px;
-    height: 20px;
-    border-style: solid;
-    border-width: thin;
+    height: 13px;
     margin: auto;
     text-align: left;
     padding: 5px;
 }
 
+.sub{
+    width: 200px;
+    height: 20px;
+    float: left;
+    margin-left: 300px;
+}
+
 .btn-sub{
-    width: 125px;
-    height: 15px;
-    background-color: rgb(223, 221, 221);
-    border-style: solid;
-    border-width: thin;
-    border-radius: 3px ;
-    border-color: gray;
-    margin: 0 auto;
-
-
+    width: 100px;
+    height: 20px;
+    margin-right: 10px;
+    font-size: 14px;
 }
 
